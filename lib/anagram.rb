@@ -18,7 +18,7 @@ class Anagram
     
     phrase_hashes.each_with_index do |phrase_hash, index|
       if compare(word_hash, phrase_hash)
-        matches.push(phrase[index])
+        matches.push(full_phrase[index])
       end
     end 
     
