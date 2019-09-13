@@ -21,6 +21,8 @@ class Anagram
       if hash.has_key(str[i])
         hash[str[i]] += 1
       else 
+        hash[str[i]] = 1;
+      end 
     end 
   end
 end
