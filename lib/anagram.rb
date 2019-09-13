@@ -13,6 +13,8 @@ class Anagram
     phrase_words.each do |phrase_word|
       phrase_hashes.push(hash(phrase_word))
     end 
+    
+    word_hash = hash(word)
   end 
 
   private
