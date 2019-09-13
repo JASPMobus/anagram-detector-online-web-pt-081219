@@ -6,11 +6,11 @@ class Anagram
     @word = word
   end
   
-  def match(phrase)
+  def match(full_phrase)
     phrase_hashes = []
     
-    phrase.each do |phrase|
-      phrase_hashes.push(hash(phrase))
+    full_phrase.each do |phrase_word|
+      phrase_hashes.push(hash(phrase_word))
     end 
     
     word_hash = hash(word)
