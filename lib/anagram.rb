@@ -7,11 +7,10 @@ class Anagram
   end
   
   def match(phrase)
-    phrase_words = phrase.split(" ")
     phrase_hashes = []
     
-    phrase_words.each do |phrase_word|
-      phrase_hashes.push(hash(phrase_word))
+    phrase.each do |phrase|
+      phrase_hashes.push(hash(phrase))
     end 
     
     word_hash = hash(word)
@@ -19,7 +18,7 @@ class Anagram
     
     phrase_hashes.each_with_index do |phrase_hash, index|
       if compare(word_hash, phrase_hash)
-        matches.push(phrase_words[index])
+        matches.push(phrase[index])
       end
     end 
     
