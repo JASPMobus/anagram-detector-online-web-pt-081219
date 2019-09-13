@@ -15,6 +15,7 @@ class Anagram
     end 
     
     word_hash = hash(word)
+    matches = []
     
     phrase_hashes.each do |key, val|
       if 
