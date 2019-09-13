@@ -15,8 +15,12 @@ class Anagram
   private
   
   def hash(str)
+    hash = {}
+    
     str.length.times do |i|
-      
+      if hash.has_key(str[i])
+        hash[str[i]] += 1
+      else 
     end 
   end
 end
