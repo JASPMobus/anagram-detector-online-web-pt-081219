@@ -38,12 +38,16 @@ class Anagram
   end
   
   def compare(hash1, hash2)
-    same = true
-    
     if hash1.size != hash2.size
       return false
     else
-      
+      hash1.each do |key, val|
+        if !hash2.has_key(key) || hash2[key] != val
+          return false
+        end
+      end 
     end 
+    
+    return true
   end 
 end
