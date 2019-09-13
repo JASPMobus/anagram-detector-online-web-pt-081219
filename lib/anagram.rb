@@ -15,6 +15,10 @@ class Anagram
     end 
     
     word_hash = hash(word)
+    
+    phrase_hashes.each do |key, val|
+      
+    end 
   end 
 
   private
