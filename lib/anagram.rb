@@ -11,6 +11,8 @@ class Anagram
     phrase_hashes = []
     
     phrase_words.each do |phrase_word|
+      
+    end 
   end 
 
   private
