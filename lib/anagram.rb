@@ -7,9 +7,9 @@ class Anagram
   end
   
   def match(phrase)
-    candidates = phrase.split(" ")
+    phrase_words = phrase.split(" ")
     
-    candidates.each do |candidate|
+    phrase_words.each do |phrase_word|
       
     end 
   end 
