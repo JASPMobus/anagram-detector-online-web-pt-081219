@@ -8,8 +8,9 @@ class Anagram
   
   def match(phrase)
     phrase_words = phrase.split(" ")
+    phrase_hashes = []
     
-    
+    phrase_words.each do |phrase_word|
   end 
 
   private
