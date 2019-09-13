@@ -11,4 +11,10 @@ class Anagram
     
     
   end 
+
+  private
+  
+  def hash(str)
+    
+  end
 end
