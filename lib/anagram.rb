@@ -36,4 +36,10 @@ class Anagram
     
     hash
   end
+  
+  def compare(hash1, hash2)
+    same = true
+    
+    
+  end 
 end
