@@ -46,7 +46,7 @@ class Anagram
       return false
     else
       hash1.each do |key, val|
-        if !hash2.has_key(key) || hash2[key] != val
+        if !hash2.has_key?(key) || hash2[key] != val
           return false
         end
       end 
