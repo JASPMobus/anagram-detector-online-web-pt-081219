@@ -24,5 +24,7 @@ class Anagram
         hash[str[i]] = 1
       end 
     end 
+    
+    hash
   end
 end
