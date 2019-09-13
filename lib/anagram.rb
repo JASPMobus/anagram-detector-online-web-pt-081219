@@ -7,6 +7,6 @@ class Anagram
   end
   
   def match(phrase)
-    
+    candidates = phrase.split(" ")
   end 
 end
