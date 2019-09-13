@@ -17,9 +17,13 @@ class Anagram
     word_hash = hash(word)
     matches = []
     
-    phrase_hashes.each do |key, val|
-      if 
+    phrase_hashes.each_with_index do |phrase_hash, index|
+      if compare(word_hash, phrase_hash)
+        matches.push(phrase_words[index])
+      end
     end 
+    
+    matches
   end 
 
   private
