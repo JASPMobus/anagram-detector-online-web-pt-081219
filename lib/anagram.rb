@@ -15,6 +15,8 @@ class Anagram
   private
   
   def hash(str)
-    
+    str.length.times do |i|
+      
+    end 
   end
 end
