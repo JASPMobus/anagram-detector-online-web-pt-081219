@@ -40,6 +40,10 @@ class Anagram
   def compare(hash1, hash2)
     same = true
     
-    
+    if hash1.size != hash2.size
+      return false
+    else
+      
+    end 
   end 
 end
